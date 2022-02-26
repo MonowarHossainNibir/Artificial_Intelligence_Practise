@@ -1,5 +1,5 @@
-import speech_recognition as sr
-import playsound
+import speech_recognition as sr #pip install speechRecognition
+import playsound #pip install playsound==1.2.2
 from gtts import gTTS
 import random
 from time import ctime
@@ -7,7 +7,7 @@ import webbrowser
 import os
 import pyttsx3
 import datetime
-import pyaudio
+import pyaudio #pip install pipwin then pipwin install pyaudio
 
 class Person:
     name = ''
